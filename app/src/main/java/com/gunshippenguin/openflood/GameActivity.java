@@ -178,7 +178,7 @@ public class GameActivity extends AppCompatActivity
                     ViewGroup.LayoutParams.MATCH_PARENT, 1.0f));
             newButton.setPadding(buttonPadding, buttonPadding, buttonPadding, buttonPadding);
 
-            newButton.setColorBlindText(Integer.toString(i + 1));
+            newButton.setColorBlindText(Integer.toString(i));
             newButton.setColor(paints[i].getColor());
             buttonLayout.addView(newButton);
         }
